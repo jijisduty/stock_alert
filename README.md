@@ -1,2 +1,4 @@
 # stock_alert
-This python code takes a web link on the bug.co.il site and checks if the item is in stock. If it is, sends an alert via a telegram bot
+This python code checks if the Playstation 5 is in stock on the Bug.co.il website, and with a telegram bot sends a message to the specified chat ID. 
+You need to modify the token and chat_id.
+You can set it to run every x minutes with a cron job on your server.

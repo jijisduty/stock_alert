@@ -10,7 +10,7 @@ d2 = todayDate.strftime("%B %d, %Y")
 t2 = timeNow.strftime("%H:%M:%S")
 my_url = 'https://www.bug.co.il/brand/ps5/ps5/console/blue/ray'
 
-# open connection, grab the page
+# opens connection, grabs the page
 uClient = uReq(my_url)
 page_html = uClient.read()
 uClient.close()
